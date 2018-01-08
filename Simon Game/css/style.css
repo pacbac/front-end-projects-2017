@@ -1,0 +1,197 @@
+body {
+  background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/02/HD-Wood-Floor-Wallpaper.jpg);
+}
+
+div, p {
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+}
+
+.simon, .inner-border, .center {
+  border-radius: 100%;
+  background-color: #1c1b1b;
+  position: relative;
+  overflow: hidden;
+}
+
+.simon {
+  margin: 7% auto auto auto;
+  width: 450px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 3px 5px black;
+  font-family: "Roboto Condensed";
+}
+
+.inner-border {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.center {
+  width: 225px;
+  height: 225px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.inner-center {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: #e5e5e5;
+  box-shadow: 3px 3px 5px black;
+  position: relative;
+}
+
+p.logo {
+  font-family: "Alfa Slab One";
+  font-size: 50px;
+  margin: 15% auto auto auto;
+  text-align: center;
+}
+
+.count-display {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #1c1b1b;
+  border-radius: 10px;
+  background-color: #3d0101;
+  color: #590101;
+  font-style: Orbitron;
+  width: 50px;
+  height: 30px;
+  margin-left: 10%;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.button {
+  position: absolute;
+  width: 47%;
+  height: 47%;
+  box-shadow: 3px 3px 5px black;
+  cursor: pointer;
+}
+
+.start {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: #444;
+  border-width: 3px;
+  background-color: red;
+  margin-top: 3%;
+  margin-left: 7%;
+  display: inline-block;
+}
+
+.strict {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: #444;
+  border-width: 3px;
+  background-color: yellow;
+  margin-top: 3%;
+  margin-left: 30%;
+  display: inline-block;
+}
+
+.strict-light {
+  position: absolute;
+  top: 92px;
+  right: 42px;
+  width: 5px;
+  height: 5px;
+  border-style: solid;
+  border-radius: 100%;
+  border-width: 2px;
+  border-color: black;
+  background-color: #111;
+}
+
+.label {
+  font-family: "Roboto Condensed";
+  font-size: 12px;
+  width: 76%;
+  margin: 2% auto auto auto;
+  font-weight: bold;
+}
+
+.switch-shell {
+  margin: 2% auto auto auto;
+  text-align: center;
+  font-size: 12px;
+  vertical-align: center;
+  line-height: 10px;
+  width: 100px;
+}
+
+.switch {
+  background-color: #1c1b1b;
+  width: 40px;
+  height: 20px;
+  display: inline-block;
+  margin: 4% 2% auto 2%;
+  cursor: pointer;
+  position: relative;
+}
+
+.switch-active {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #1c1b1b;
+  border-radius: 3px;
+  background-color: #42cbf4;
+}
+
+.off, .on {
+  width: 45%;
+  height: 80%;
+  position: absolute;
+}
+
+.on {
+  right: 0;
+}
+
+.off {
+  left: 0;
+}
+
+.green {
+  background-color: #03ba5b;
+  top: 0;
+  left: 0;
+}
+
+.yellow {
+  background-color: #bab602;
+  bottom: 0;
+  left: 0;
+}
+
+.red {
+  background-color: #700202;
+  top: 0;
+  right: 0;
+}
+
+.blue {
+  background-color: #0145ba;
+  bottom: 0;
+  right: 0;
+}

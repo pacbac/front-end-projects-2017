@@ -1,0 +1,162 @@
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
+}
+
+body {
+  background-color: #b7b7b7;
+}
+
+.center-content {
+  border-radius: 20px;
+  width: 400px;
+  height: 450px;
+  background-color: #edcf65;
+  margin: auto;
+  overflow: hidden;
+  padding: 30px;
+}
+
+.scoreboard {
+  width: 300px;
+  height: 40px;
+  background-color: #470000;
+  margin: 6% auto auto auto;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  text-align: center;
+  color: white;
+  padding-top: 7px;
+  position: relative;
+  padding: 6px;
+}
+
+.score {
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  margin-top: 6px;
+}
+
+#firstScore {
+  left: 0;
+}
+
+#secondScore {
+  right: 0;
+}
+
+.screen {
+  width: 100%;
+  height: 100%;
+  background-color: #003506;
+  color: white;
+  font-family: Athiti;
+  font-style: italic;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+#prompt {
+  text-align: center;
+  padding-top: 10%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20%;
+}
+
+.row1 {
+  margin: auto;
+  width: 90%;
+}
+
+.col-6 {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.col-6:hover, .col-6:focus {
+  font-size: 30px;
+  cursor: pointer;
+  border-style: dashed;
+  border-radius: 10px;
+  border-color: white;
+}
+
+.board {
+  width: 80%;
+  height: 100%;
+  margin: 10% auto auto auto;
+}
+
+.row2 {
+  margin: auto;
+  width: 100%;
+  height: 20%;
+}
+
+.col-4 {
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  cursor: pointer;
+  font-size: 60px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 120%;
+}
+
+.overlay {
+  background-color: Transparent;
+  border-style: solid;
+  border-width: 5px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding-top: 50%;
+  font-size: 50px;
+}
+
+h1.title {
+  padding-top: 10px;
+}
+
+#square1 {
+  border-top-style: hidden;
+  border-left-style: hidden;
+}
+
+#square2 {
+  border-top-style: hidden;
+}
+
+#square3 {
+  border-top-style: hidden;
+  border-right-style: hidden;
+}
+
+#square4 {
+  border-left-style: hidden;
+}
+
+#square6 {
+  border-right-style: hidden;
+}
+
+#square7 {
+  border-bottom-style: hidden;
+  border-left-style: hidden;
+}
+
+#square8 {
+  border-bottom-style: hidden;
+}
+
+#square9 {
+  border-bottom-style: hidden;
+  border-right-style: hidden;
+}

@@ -1,0 +1,91 @@
+body {
+  background-color: silver;
+}
+
+.center-content {
+  max-width: 50%;
+  margin: 2% auto auto auto;
+  text-align: center;
+}
+
+.search-bar input {
+  border-style: solid;
+  border-color: #034ec6;
+  border-width: 5px;
+  border-radius: 20px;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin: 5% 0 0 0;
+  display: inline-block;
+}
+
+img[alt="search-icon"] {
+  position: absolute;
+  top: 130%;
+  right: 48%;
+}
+
+h1, #prompt {
+  position: relative;
+  color: #034ec6;
+  text-align: center;
+  font-family: Raleway;
+}
+
+h1 {
+  margin: 3% auto auto auto;
+}
+
+#prompt {
+  margin: 1% auto auto auto;
+}
+
+.search-bar input:focus, button:focus {
+  outline: none;
+}
+
+.search-bar input, textarea {
+  background-color: rgba(0, 0, 0, 0);
+  color: #034ec6;
+  font-family: Raleway;
+  font-weight: 700;
+}
+
+.result {
+  background-color: white;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: left;
+}
+
+.search-results a:hover, .search-results a:focus {
+  text-decoration: none;
+  text-align: left;
+  color: #034ec6;
+}
+
+#random {
+  color: #034ec6;
+  font-family: Raleway;
+  position: relative;
+  text-align: center;
+  margin: 1% auto auto auto;
+  left: 0;
+  width: 100%;
+  /*background-color: yellow;*/
+}
+
+button, button:focus {
+  float: right;
+  display: inline-block;
+  background-color: rgba(0,0,0,0);
+  font-family: "Open Sans";
+  color: #034ec6;
+  font-weight: bold;
+  margin: 5% 0 0 0;
+  position: relative; 
+  right: 37%;
+  bottom: 10%;
+  border: none;
+  outline: none;
+}

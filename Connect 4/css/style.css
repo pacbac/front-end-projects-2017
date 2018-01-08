@@ -1,0 +1,145 @@
+* {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+body {
+  background-color: #003a99;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Montserrat;
+  font-size: 60px;
+  text-shadow:
+    -3px -3px 0 #000,
+    3px -3px 0 #000,
+    -3px 3px 0 #000,
+    3px 3px 0 #000;  
+}
+
+span.four {
+  color: red;
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.score-title {
+  font-size: 48px;
+  color: white;
+}
+
+.score-title-turn {
+  text-shadow:
+    -3px -3px 0 ##0ecc14,
+    3px -3px 0 ##0ecc14,
+    -3px 3px 0 ##0ecc14,
+    3px 3px 0 ##0ecc14;  
+}
+
+.score {
+  height: 50px;
+  font-size: 60px;
+  color: white;
+}
+
+.score1 {
+  margin-right: 0;
+  text-align: right;
+}
+
+.score2 {
+  margin-left: 0;
+  text-align: left;
+}
+
+.overlay {
+  background-color: rgba(0,0,0,0.8);
+  position: absolute;
+  top: 0;
+  width: 800px;
+  height: 600px;
+  z-index: 1;
+  text-align: center;
+  line-height: 600px;
+  vertical-align: center;
+  color: white;
+  font-size: 70px;
+  font-family: Raleway;
+}
+
+.board {
+  background-color: #fff24c;
+  width: 800px;
+  height: 600px;
+  margin: auto;
+  box-shadow: 2px 2px 5px #000;
+  padding: 8px;
+}
+
+.menu-box {
+  background-color: white;
+  width: 750px;
+  height: 500px;
+  margin: auto;
+  padding: 8px;
+  margin-top: 5%;
+}
+
+.prompt, .button {
+  font-family: Raleway;
+  font-size: 48px;
+  text-align: center;
+}
+
+.prompt {
+  margin: 15% auto auto auto;
+  width: 80%;
+  border-style: solid;
+  border-width: 3px;
+  padding: 10px;
+}
+
+.row1 {
+  margin: auto;
+  width: 80%;
+}
+
+.button {
+  cursor: pointer;
+  margin: 5% auto auto auto;
+}
+
+.button:hover {
+  border-style: solid;
+  border-width: 3px;
+  padding: 10px;
+}
+
+.row2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.slot {
+  margin: auto;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: #003a99;
+  cursor: pointer;
+}
+
+.slotOccupied {
+  border-style: solid;
+  border-width: 15px;
+}
+

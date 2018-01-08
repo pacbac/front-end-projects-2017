@@ -1,0 +1,94 @@
+body {
+  background-color: #ccc;
+}
+
+.center-content {
+  margin: 1% auto auto auto;
+  min-width: 50%;
+  max-width: 80%;
+  height: 50%;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+.heading {
+  background-color: #5000a0;
+  padding-top: 20px;
+  position: relative;
+  width: 100%;
+  border-radius: 3px;
+}
+
+h1 {
+  font-family: Anton;
+  color: white;
+  font-size: 64px;
+  margin: 0px 20px 20px 20px;
+}
+
+.all {
+  background-color: gray;
+}
+
+.online {
+  background-color: green;
+  border-left-style: solid;
+  border-left-color: #1a0054;
+  border-right-style: solid;
+  border-right-color: #1a0054;
+  border-left-width: 2px;
+  border-right-width: 2px;
+}
+
+.offline {
+  background-color: red;
+}
+
+.col-sm-4 {
+  padding: 10px;
+}
+
+.col-sm-4 a, .col-sm-4 a:focus, .col-sm-4 a:hover {
+  font-family: "Roboto Condensed";
+  text-decoration: none;
+}
+
+.col-sm-4 a {
+  color: white;
+}
+
+a:focus, a:hover {
+  color: silver;
+}
+
+img[alt="channel-logo"] {
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+}
+
+.stream-list .row {
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 3px;
+  margin-bottom: 10px;
+  box-shadow: 3px 3px grey;
+  border-radius: 3px;
+}
+
+.offlineNow {
+  background-color: #ff8282;
+}
+
+.onlineNow {
+  background-color: #a7ff82;
+}
+
+p {
+  font-style: italic;
+}
+
+.stream-list a, .stream-list a:hover, .stream-list a:focus {
+  color: black;
+  text-decoration: none;
+}
